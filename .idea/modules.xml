@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Genric_array/Genric_array.iml" filepath="$PROJECT_DIR$/Genric_array/Genric_array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Link_list/Link_list.iml" filepath="$PROJECT_DIR$/Link_list/Link_list.iml" />
       <module fileurl="file://$PROJECT_DIR$/intlajiDomin.iml" filepath="$PROJECT_DIR$/intlajiDomin.iml" />
     </modules>
   </component>
