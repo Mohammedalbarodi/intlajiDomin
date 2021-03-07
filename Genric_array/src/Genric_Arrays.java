@@ -12,8 +12,10 @@ public class Genric_Arrays <T,E>{
             arr3[arr.length + i] = (Object) arr2[i];
         }
         for (int i = 0; i <arr3.length ; i++) {
-            System.out.println(arr3[i]);
-        }}
+            System.out.print(arr3[i]+" ");
+        }
+        System.out.println();
+    }
 
     public void  lnverse(T[] e){
         int n = e.length - 1;
@@ -21,11 +23,13 @@ public class Genric_Arrays <T,E>{
             T t = (T) e[i];
             e[i] = e[n];
             e[n] = t;
-            n--;
+            n++;
         }
         for (int i = 0; i <n ; i++) {
-            System.out.println(e[i]);
-        }}
+            System.out.print(e[i]+" ");
+        }
+        System.out.println();
+    }
 
 
 
